@@ -1,6 +1,7 @@
 {
   "name": "hw18",
   "version": "0.1.0",
+ "homepage": "https://sofiaputlyuk.github.io/hw18",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
