@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef} from "react";
+import { useState, useEffect, useRef } from "react";
 import { nanoid } from "nanoid";
 import { ListContext } from "./ListContext";
 import { List } from "./List";
@@ -45,8 +45,8 @@ export const Form = () => {
     }
 
     return (
-       <div className="containerTask">
-        <h1>To-Do List</h1>
+        <div className="containerTask">
+            <h1>To-Do List</h1>
             <form>
                 <input type="text" placeholder="To do" ref={inputRef} onChange={handleInputTask} value={task} />
                 <button type="button" onClick={handleSend} className="btnAdd"><BiTask /></button>
