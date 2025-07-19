@@ -1,9 +1,10 @@
-ul{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap:12px;
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
+
 li {
   background-color: #00BBF0;
   padding: 14px 20px;
@@ -17,23 +18,25 @@ li {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-.btnDelete{
-background-color: rgba(255, 255, 255, 0.15);
-color:#fff;
-border: none;
-padding: 8px 14px;
-border-radius: 10px;
-cursor: pointer;
+.btnDelete {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
 }
+
 .btnDelete:hover {
-    background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
 }
-.textTasks{
- font-family: 'Poppins', sans-serif;
+
+.textTasks {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
   color: #2c3e50;
   text-align: center;
   margin: 30px 0;
   letter-spacing: 1px;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-} 
+}
